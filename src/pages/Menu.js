@@ -95,12 +95,12 @@ function Menu() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item as={Link} to="/menu">all</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/menu/burger">burger</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/menu/pizza">pizza</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/menu/drinks">drinks</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/menu/dessert">dessert</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/menu/pasta">pasta</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/saltae_burger/menu">all</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/saltae_burger/menu/burger">burger</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/saltae_burger/menu/pizza">pizza</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/saltae_burger/menu/drinks">drinks</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/saltae_burger/menu/dessert">dessert</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/saltae_burger/menu/pasta">pasta</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </Col>

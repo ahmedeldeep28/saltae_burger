@@ -58,7 +58,7 @@ function Contact() {
       </header>
 
       <Container className="py-5 mt-5">
-        <Row className="gx-4">
+        <Row className="g-4">
           <Col md={6}>
             <Formik initialValues={initialValues} validationSchema={schema} onSubmit={handleSubmit}>
               {(props) => {

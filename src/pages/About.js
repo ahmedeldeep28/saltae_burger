@@ -29,7 +29,7 @@ function About() {
       </section>
 
       <Container className="py-5">
-        <Row className="gx-5">
+        <Row className="g-4">
           <Col md={6}>
             <Image className='w-100' src="/saltae_burger/images/palt.webp" />
           </Col>
