@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes&amp;display=swap");
+
+$primary: #ff9302;
+$secondary: #fdf3e6;
+$success: #3e8d63;
+$info: #7854e4;
+$warning: #b8c924;
+$danger: #d62518;
+$light: #fff;
+$dark: #252729;
+
+body {
+  padding-top: 65px;
+  font-family: "Poppins", sans-serif;
+}
+.box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.min-vh-75 {
+  min-height: 75vh;
+}
+.vh-75 {
+  height: 75vh;
+}
+.btn {
+  box-shadow: none !important;
+  text-transform: capitalize;
+}
+.btn-primary {
+  color: #fff !important;
+  &:hover {
+    color: #fff;
+  }
+}
+.btn-outline-primary {
+  &:hover {
+    color: #fff;
+  }
+}
+.navbar {
+  padding: 12px 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 17px;
+  margin: 0px 5px;
+}
+.nav-link.active {
+  color: $primary !important;
+}
+
+.rounded-4 {
+  border-radius: 9px;
+}
+.rounded-5 {
+  border-radius: 12px;
+}
+.text-1 {
+  font-size: 17px;
+}
+.text-2 {
+  font-size: 18px;
+}
+.fw-400 {
+  font-weight: 400;
+}
+input,
+select,
+textarea {
+  box-shadow: none !important;
+  &::placeholder {
+    text-transform: capitalize;
+  }
+}
+.form-label {
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.message {
+  height: 200px;
+  resize: none;
+}
+footer ul li {
+  transition: all 0.3s linear;
+  font-size: 17px !important;
+  cursor: pointer;
+}
+footer ul li a {
+  text-decoration: none;
+}
+footer ul li:hover {
+  transform: translateX(7px);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+.avatar-lg {
+  width: 110px;
+  height: 110px;
+}
+.card_plate {
+  background: linear-gradient(10deg, #f5ebdf, #ffcf8f);
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -10px;
+}
+.swiper-pagination-bullet-active {
+  background-color: $primary !important;
+}
+.section_title {
+  position: relative;
+}
+.section_title .sub_title {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  font-weight: normal;
+  font-size: 100px;
+  display: block;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.2);
+  color: $primary;
+  line-height: 1;
+  font-family: "Great Vibes", cursive;
+  margin-top: 0;
+  z-index: -1;
+}
+.services {
+  z-index: -2;
+  position: relative;
+}
+.hero-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  background-position: 50% 0%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background: rgba(0, 0, 0, 0.71);
+}
+.hero-wrap .container {
+  position: relative;
+  z-index: 1;
+}
+.card_food {
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card_food .card-title {
+  text-transform: uppercase;
+}
+.card_food:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card_food .head {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.card_food:hover .head img {
+  transform: scale(1.1);
+}
+.card_food .head img,
+.card_chef .head img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all .3s ease-in-out;
+}
+.card_food .card-text {
+  min-height: 72px;
+}
+.card_chef {
+  overflow: hidden;
+}
+.card_chef .card-body {
+  padding: 40px 30px;
+  border: 1px solid #e7e7e7;
+  border-radius: 100px 0px 623px 77px / 0px 50px 128px 58px;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.socail_icon {
+  display: flex;
+  justify-content: center;
+}
+.socail_icon a {
+  background-color: #fff;
+  color: #888;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dee2e6 !important;
+  transition: all 0.3s linear;
+}
+.socail_icon a:hover {
+  color: #f5ebdf;
+  background-color: $primary;
+  border: 1px solid $primary;
+}
+.checkout_card {
+  width: 320px;
+}
+ @media screen and (min-width: 576px) {
+  .swiper-container {
+    width: 576px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+} 

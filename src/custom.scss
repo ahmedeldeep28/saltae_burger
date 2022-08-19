@@ -1,0 +1,18 @@
+// Override default variables before the import
+// you can open the bootstrap.scss module and check any available variables.
+$primary: #ff9302;
+$secondary: #fdf3e6;
+$success: #3e8d63;
+$info: #7854e4;
+$warning: #b8c924;
+$danger: #d62518;
+$light: #F3F9FA;
+$dark: #252729;
+
+
+
+
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
