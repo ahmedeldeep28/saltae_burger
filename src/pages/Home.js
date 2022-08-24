@@ -154,10 +154,10 @@ function Home() {
                 </li>
               </ul>
               <Link to="#" className="me-2">
-                <Image width={130} height={40} src='/images/google-play.png' />
+                <Image width={130} height={40} src='/saltae_burger/images/google-play.png' />
               </Link>
               <Link to="#">
-                <Image width={130} height={40} src='/images/app store.png' />
+                <Image width={130} height={40} src='/saltae_burger/images/app store.png' />
               </Link>
             </Col>
           </Row>
