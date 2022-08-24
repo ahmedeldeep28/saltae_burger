@@ -61,7 +61,7 @@ function Cart() {
                 </Table>
 
                 {cartItem.length === 0 ? <Alert >
-                    no product now. <Link to="/menu">Product Order</Link>
+                    no product now. <Link to="/saltae_burger/menu">Product Order</Link>
                 </Alert> : null}
 
                 <Card className="checkout_card mt-3 rounded-5 bg-light shadow-sm p-3 ms-auto">
@@ -79,9 +79,9 @@ function Cart() {
                         <li className='d-flex  mt-3 text-success'>Paiement when recieving</li>
                     </ul>
                     {cartItem.length === 0 ?
-                        <Button className="text-capitalize mt-3" as={Link} to="/menu">product order</Button>
+                        <Button className="text-capitalize mt-3" as={Link} to="/saltae_burger/menu">product order</Button>
                         :
-                        <Button className="text-capitalize mt-3" as={Link} to="/checkout">checkout order</Button>
+                        <Button className="text-capitalize mt-3" as={Link} to="/saltae_burger/checkout">checkout order</Button>
                     }
                 </Card>
             </Container>
