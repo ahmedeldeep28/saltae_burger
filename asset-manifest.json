@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/saltae_burger/static/css/main.c3a38620.css",
-    "main.js": "/saltae_burger/static/js/main.2bdb95ef.js",
+    "main.js": "/saltae_burger/static/js/main.7c4bdc2b.js",
     "static/js/787.6afa1b87.chunk.js": "/saltae_burger/static/js/787.6afa1b87.chunk.js",
     "index.html": "/saltae_burger/index.html",
     "main.c3a38620.css.map": "/saltae_burger/static/css/main.c3a38620.css.map",
-    "main.2bdb95ef.js.map": "/saltae_burger/static/js/main.2bdb95ef.js.map",
+    "main.7c4bdc2b.js.map": "/saltae_burger/static/js/main.7c4bdc2b.js.map",
     "787.6afa1b87.chunk.js.map": "/saltae_burger/static/js/787.6afa1b87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3a38620.css",
-    "static/js/main.2bdb95ef.js"
+    "static/js/main.7c4bdc2b.js"
   ]
 }
