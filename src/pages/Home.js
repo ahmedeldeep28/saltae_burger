@@ -26,6 +26,9 @@ function Home() {
   let dispatch = useDispatch()
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+    document.title = "Saltae Birjar - home"
+
     dispatch(getHomeFoods())
   }, [dispatch]);
 

@@ -17,6 +17,10 @@ function About() {
 
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+    document.title = "Saltae Birjar - about"
+
+
     dispatch(getChefs())
   }, [dispatch])
 

@@ -26,7 +26,7 @@ function ModalLogin({ show, setShow }) {
     let handleSubmit = (values, formProps) => {
 
         dispatch(login(values)).unwrap().then(data => {
-            toast.success("create success", {
+            toast.success("login success", {
                 position: toast.POSITION.TOP_RIGHT
             });
             handleClose()

@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { menuFoods, homeFoods } from './../../data/foods';
 
+
 export const getMenuFoods = createAsyncThunk("foods/getMenuFoods", async (foodName, thunkAPI) => {
     let { rejectWithValue } = thunkAPI;
     return new Promise((resolve, reject) => {

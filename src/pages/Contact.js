@@ -8,6 +8,7 @@ import * as Yup from 'yup';
 import { FormInput, FormSelect } from '../components/Form';
 import { toast } from 'react-toastify';
 import NavBar from '../components/NavBar';
+import { useEffect } from 'react';
 
 function Contact() {
 
@@ -36,6 +37,12 @@ function Contact() {
       });
     }, 800)
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+    document.title = "Saltae Birjar - contact us"
+
+  },[])
 
   return (
     <>

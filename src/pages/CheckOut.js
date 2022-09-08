@@ -17,6 +17,8 @@ function CheckOut() {
   let { cartItem } = useSelector(state => state.cart);
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+    document.title = "Saltae Birjar - checkout"
     dispatch(getCartItem())
   }, [dispatch])
 

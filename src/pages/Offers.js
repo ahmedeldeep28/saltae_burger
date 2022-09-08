@@ -12,8 +12,10 @@ function Offers() {
     let dispatch = useDispatch()
 
 
-
     useEffect(() => {
+        window.scrollTo(0, 0)
+        document.title = "Saltae Birjar - offers"
+
         dispatch(getOffers())
     }, [dispatch])
 

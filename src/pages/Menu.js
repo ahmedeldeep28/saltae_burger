@@ -28,6 +28,9 @@ function Menu() {
   }
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+    document.title = "Saltae Birjar - menu"
+
     dispatch(getMenuFoods(foodName));
     return () => {
       // cancel the request before component unmounts

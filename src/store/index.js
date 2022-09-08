@@ -1,4 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
+
 import cartSlice from "./slice/cartSlice";
 import chefSlice from "./slice/chefSlice";
 import foodSlice from "./slice/foodSlice";
@@ -17,4 +18,4 @@ const store = configureStore({
     }
 })
 
-export default store
+export default store;

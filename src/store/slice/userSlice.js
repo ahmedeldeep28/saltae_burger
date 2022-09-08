@@ -47,7 +47,7 @@ export const createAcount = createAsyncThunk("user/createAcount", async (userDat
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             // check is user
-            if (localStorage.getItem("user")) {
+            if (JSON.parse(localStorage.getItem("user"))) {
                 reject("This account exists")
             } else {
                 localStorage.setItem("user", JSON.stringify(userData));

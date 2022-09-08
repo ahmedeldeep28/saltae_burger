@@ -14,6 +14,8 @@ function Cart() {
 
 
     useEffect(() => {
+        window.scrollTo(0, 0)
+        document.title = "Saltae Birjar - cart"
         dispatch(getCartItem())
     }, [dispatch])
 
