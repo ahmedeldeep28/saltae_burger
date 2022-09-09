@@ -69,13 +69,13 @@ function Cart() {
                 <Card className="checkout_card mt-3 rounded-5 bg-light shadow-sm p-3 ms-auto">
                     <Card.Title className='text-capitalize'>Order summary</Card.Title>
                     <ul className="p-0 unlist">
-                        <li className='d-flex justify-content-between pb-2 border-bottom mt-2'>Subtotal <span>${totalCart}</span></li>
+                        <li className='d-flex justify-content-between pb-2 border-bottom mt-2'>Subtotal <span>${totalCart.toFixed(2)}</span></li>
                         {cartItem.length === 0 ?
                             null
                             :
                             <>
-                                <li className='d-flex justify-content-between pb-2 border-bottom mt-3'>order total <span>{totalCart + 5}/pound</span></li>
                                 <li className='d-flex justify-content-between pb-2 border-bottom mt-3'>Shipping <span>5/pound</span></li>
+                                <li className='d-flex justify-content-between pb-2 border-bottom mt-3'>order total <span>{(totalCart + 5).toFixed(2)}/pound</span></li>
                             </>
                         }
                         <li className='d-flex  mt-3 text-success'>Paiement when recieving</li>
