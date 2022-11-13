@@ -63,7 +63,7 @@ export let menuFoods = [
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, dolores?",
         price: "5.99",
         category: "dessert",
-        image: "https://a6e8z9v6.stackpathcdn.com/recibo/wp-content/uploads/2015/06/15910593425_93695e491c_b-400x300.jpg",
+        image: "https://static01.nyt.com/images/2022/02/12/dining/JT-Chocolate-Chip-Cookies/JT-Chocolate-Chip-Cookies-threeByTwoMediumAt2X.jpg",
         id: 8
     },
 

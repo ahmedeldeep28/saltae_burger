@@ -14,7 +14,6 @@ function ModalSinup({ show, setShow }) {
         username: '',
         phone: '',
         password: ''
-
     }
 
     let schema = Yup.object({

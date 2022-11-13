@@ -25,7 +25,7 @@ export const searchFoods = createAsyncThunk("foods/searchFoods", async (trem, th
     return new Promise((resolve, reject) => {
         let categoryValue = trem.category ? trem.category : "";
         let filterFood = menuFoods.filter((el) => {
-            return el.foodName.includes(trem.search) && el.category.includes(categoryValue)
+            return el.foodName.toLowerCase().includes(trem.search.toLowerCase()) && el.category.includes(categoryValue)
         })
         resolve(filterFood)
     }).then(res => {
