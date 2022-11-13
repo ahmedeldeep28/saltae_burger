@@ -28,14 +28,24 @@ function About() {
   return (
     <>
       <NavBar />
-      <section className='hero-wrap d-flex align-items-center' style={{ backgroundImage: 'url("/saltae_burger/images/background/background 1.jpg")' }} >
-        <div className="overlay"></div>
-      </section>
+      <header className="bg-secondary vh-75 d-flex align-items-center py-5">
+        <Container>
+          <Row>
+            <Col md={6} className="d-flex flex-column justify-content-center align-content-center">
+              <h1 className="display-4 fw-bold">Who are we and what is Salta Burger?</h1>
+              <p className="fs-5">We offer the best quality food at the best price ever and it reaches you in the fastest time</p>
+            </Col>
+            <Col md={6} className="d-none d-md-block">
+              <Image src="/images/cover (11).png" className="w-100" />
+            </Col>
+          </Row>
+        </Container>
+      </header>
 
       <Container className="py-5">
         <Row className="g-4">
           <Col md={6}>
-            <Image className='w-100' src="/saltae_burger/images/palt.webp" />
+            <Image className='w-100' src="/images/cover (9).png" />
           </Col>
           <Col md={6} className='pt-5'>
             <div className="section_title fs-5 mt-5">
@@ -107,10 +117,10 @@ function About() {
                 </li>
               </ul>
               <Link to="#" className="me-2">
-                <Image width={130} height={40} src='/saltae_burger/images/google-play.png' />
+                <Image width={130} height={40} src='/images/google-play.png' />
               </Link>
               <Link to="#">
-                <Image width={130} height={40} src='/saltae_burger/images/app store.png' />
+                <Image width={130} height={40} src='/images/app store.png' />
               </Link>
             </Col>
           </Row>

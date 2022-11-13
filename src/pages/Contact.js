@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col,Image } from 'react-bootstrap';
 import { Form, Spinner } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { Formik } from 'formik';
@@ -51,14 +51,13 @@ function Contact() {
         <Container>
           <Row>
             <Col md={6} className="d-flex flex-column justify-content-center align-content-center">
-              <h1 className="display-4 fw-400">Contact us now easily</h1>
+              <h1 className="display-4 fw-bold">Contact us now easily</h1>
               <p className="fs-5">Naxly bring the power of data science and artificial intelligence to every
                 business.</p>
             </Col>
-            <Col md={6}>
-              <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_tvxeldei.json" background="transparent"
-                speed="1" loop autoplay>
-              </lottie-player>
+            <Col md={6} className="d-none d-md-block">
+            <Image src="/images/cover.png" className="w-100" />
+
             </Col>
           </Row>
         </Container>

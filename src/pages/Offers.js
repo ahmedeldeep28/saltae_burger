@@ -23,14 +23,24 @@ function Offers() {
     return (
         <>
             <NavBar />
-            <section className='hero-wrap d-flex align-items-center' style={{ backgroundImage: 'url("/saltae_burger/images/background/background-offer.jpg")' }} >
-                <div className="overlay"></div>
-            </section>
+            <header className="bg-secondary vh-75 d-flex align-items-center py-5">
+                <Container>
+                    <Row>
+                        <Col md={6} className="d-flex flex-column justify-content-center align-content-center">
+                            <h1 className="display-4 fw-bold">Great Crab Burger Offers</h1>
+                            <p className="fs-5">We offer you the best offers and the most delicious dishes</p>
+                        </Col>
+                        <Col md={6} className="d-none d-md-block">
+                        <Image className='w-100' src="/images/cover (1).png" />
 
+                        </Col>
+                    </Row>
+                </Container>
+            </header>
             <Container className="py-5">
-                <Row className="g-4">
+                <Row className="g-4 align-items-center">
                     <Col md={6}>
-                        <Image className='w-100' src="/saltae_burger/images/fast-food-2.svg" />
+                        <Image className='w-100' src="/images/cover (6).png" />
                     </Col>
                     <Col md={6} className='pt-5'>
                         <h1 className="display-5 mt-4 fw-bold">We have the best offers for you</h1>

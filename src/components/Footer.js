@@ -16,19 +16,19 @@ function Footer() {
                         <ul className="list-unstyled">
                             <h5 className="mb-4">Navigation</h5>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/" className="text-dark d-block">home</Link>
+                                <Link to="/" className="text-dark d-block">home</Link>
                             </li>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/about" className="text-dark d-block">about</Link>
+                                <Link to="/about" className="text-dark d-block">about</Link>
                             </li>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/menu" className="text-dark d-block">menu</Link>
+                                <Link to="/menu" className="text-dark d-block">menu</Link>
                             </li>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/offer" className="text-dark d-block">offer</Link>
+                                <Link to="/offer" className="text-dark d-block">offer</Link>
                             </li>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/contact" className="text-dark d-block">contact</Link>
+                                <Link to="/contact" className="text-dark d-block">contact</Link>
                             </li>
                         </ul>
                     </Col>
@@ -36,22 +36,22 @@ function Footer() {
                         <ul className="list-unstyled">
                             <h5 className="mb-4">Services</h5>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/menu/burger" className="text-dark d-block">burger</Link>
+                                <Link to="/menu/burger" className="text-dark d-block">burger</Link>
                             </li>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/menu" className="text-dark d-block">menu</Link>
+                                <Link to="/menu" className="text-dark d-block">menu</Link>
                             </li>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/menu/pizza" className="text-dark d-block">pizza</Link>
+                                <Link to="/menu/pizza" className="text-dark d-block">pizza</Link>
                             </li>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/menu/drinks" className="text-dark d-block">drinks</Link>
+                                <Link to="/menu/drinks" className="text-dark d-block">drinks</Link>
                             </li>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/menu/dessert" className="text-dark d-block">dessert</Link>
+                                <Link to="/menu/dessert" className="text-dark d-block">dessert</Link>
                             </li>
                             <li className="mb-2 text-capitalize">
-                                <Link to="/saltae_burger/menu/pasta" className="text-dark d-block">pasta</Link>
+                                <Link to="/menu/pasta" className="text-dark d-block">pasta</Link>
                             </li>
                         </ul>
                     </Col>

@@ -38,7 +38,7 @@ function NavBar() {
             <ModalSinup show={showSinup} setShow={setShowSinup} />
             <Navbar bg="white" className="shadow-sm" fixed='top' expand="md">
                 <Container>
-                    <Navbar.Brand className="text-capitalize" as={Link} to="/saltae_burger">saltae birjar</Navbar.Brand>
+                    <Navbar.Brand className="text-capitalize" as={Link} to="/">saltae birjar</Navbar.Brand>
                     <div className='d-block ms-auto me-2 d-md-none'>
                         {!isUser ?
                             <>
@@ -46,7 +46,7 @@ function NavBar() {
                                 <Button className='ms-1' onClick={handleShowSinup}>sinup</Button>
                             </>
                             :
-                            <Link to="/saltae_burger/cart" className="me-3 position-relative">
+                            <Link to="/cart" className="me-3 position-relative">
                                 <MdShoppingCart className='fs-2 text-dark' />
                                 <Badge bg="danger" className="position-absolute top-0 end-50 translate-middle">{sizeCart}</Badge>
                             </Link>
@@ -55,11 +55,11 @@ function NavBar() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse>
                         <Nav className="m-auto">
-                            <Nav.Link className='text-capitalize' as={NavLink} to="/saltae_burger/">home</Nav.Link>
-                            <Nav.Link className='text-capitalize' as={NavLink} to="/saltae_burger/about">about</Nav.Link>
-                            <Nav.Link className='text-capitalize' as={NavLink} to="/saltae_burger/menu">menu</Nav.Link>
-                            <Nav.Link className='text-capitalize' as={NavLink} to="/saltae_burger/offer">offers</Nav.Link>
-                            <Nav.Link className='text-capitalize' as={NavLink} to="/saltae_burger/contact">contact</Nav.Link>
+                            <Nav.Link className='text-capitalize' as={NavLink} to="/">home</Nav.Link>
+                            <Nav.Link className='text-capitalize' as={NavLink} to="/about">about</Nav.Link>
+                            <Nav.Link className='text-capitalize' as={NavLink} to="/menu">menu</Nav.Link>
+                            <Nav.Link className='text-capitalize' as={NavLink} to="/offer">offers</Nav.Link>
+                            <Nav.Link className='text-capitalize' as={NavLink} to="/contact">contact</Nav.Link>
                             {isUser ?
                                 <Button variant='danger' className='mt-1 d-block d-md-none' onClick={handelLogout}>logout</Button>
                                 :
@@ -74,7 +74,7 @@ function NavBar() {
                                 </>
                                 :
                                 <>
-                                    <Link to="/saltae_burger/cart" className="me-3 position-relative">
+                                    <Link to="/cart" className="me-3 position-relative">
                                         <MdShoppingCart className='fs-2 text-dark' />
                                         <Badge bg="danger" className="position-absolute top-0 end-50 translate-middle">{sizeCart}</Badge>
                                     </Link>

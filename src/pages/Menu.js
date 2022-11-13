@@ -51,31 +51,12 @@ function Menu() {
 
 
 
-  let backgroundPage = () => {
-    if (!foodName) {
-      return "/saltae_burger/images/background/background.jpg"
-    } else if (foodName === "pizza") {
-      return "/saltae_burger/images/background/background-pizza.jpg"
-    } else if (foodName === "burger") {
-      return "/saltae_burger/images/background/background-burger.jpg"
-    } else if (foodName === "drinks") {
-      return "/saltae_burger/images/background/background-drinks.jpg"
-    } else if (foodName === "dessert") {
-      return "/saltae_burger/images/background/background-dessert.jpg"
-    } else if (foodName === "pasta") {
-      return "/saltae_burger/images/background/background-pasta.jpg"
-    }
-  }
-
 
 
   return (
     <>
       <NavBar />
-      <section className='hero-wrap d-flex align-items-center'
-        style={{ backgroundImage: `url("${backgroundPage()}")` }} >
-        <div className="overlay"></div>
-      </section>
+
       <Container className="nav-mt py-5">
         <div className="card p-4 shadow-sm rounded-5 mb-5 ">
           <h5 className='text-capitalize mb-3'>filter food</h5>
@@ -98,12 +79,12 @@ function Menu() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item as={Link} to="/saltae_burger/menu">all</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/saltae_burger/menu/burger">burger</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/saltae_burger/menu/pizza">pizza</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/saltae_burger/menu/drinks">drinks</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/saltae_burger/menu/dessert">dessert</Dropdown.Item>
-                  <Dropdown.Item as={Link} to="/saltae_burger/menu/pasta">pasta</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/menu">all</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/menu/burger">burger</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/menu/pizza">pizza</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/menu/drinks">drinks</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/menu/dessert">dessert</Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/menu/pasta">pasta</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </Col>

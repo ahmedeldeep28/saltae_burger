@@ -32,14 +32,14 @@ function App() {
     <>
       <ToastContainer />
       <Routes>
-        <Route path='/saltae_burger/' element={<Home />} />
-        <Route path='/saltae_burger/menu' element={<Menu />} />
-        <Route path='/saltae_burger/menu/:foodName' element={<Menu />} />
-        <Route path='/saltae_burger/about' element={<About />} />
-        <Route path='/saltae_burger/offer' element={<Offers />} />
-        <Route path='/saltae_burger/contact' element={<Contact />} />
-        <Route path='/saltae_burger/cart' element={<ProtactRoute component={<Cart />} />} />
-        <Route path='/saltae_burger/checkout' element={<ProtactRoute component={<CheckOut />} />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/menu' element={<Menu />} />
+        <Route path='/menu/:foodName' element={<Menu />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/offer' element={<Offers />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/cart' element={<ProtactRoute component={<Cart />} />} />
+        <Route path='/checkout' element={<ProtactRoute component={<CheckOut />} />} />
       </Routes>
       <Footer />
     </>

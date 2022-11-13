@@ -49,7 +49,7 @@ function Home() {
               </div>
             </Col>
             <Col md={6} className="d-none d-md-block">
-              <Image className='w-100' src="/saltae_burger/images/palt.webp" />
+              <Image className='w-100' src="/images/palt.webp" />
             </Col>
           </Row>
         </Container>
@@ -86,7 +86,7 @@ function Home() {
       <Container className="py-5">
         <Row className="g-4">
           <Col md={6}>
-            <Image className='w-100' src="/saltae_burger/images/png-img.png" />
+            <Image className='w-100' src="/images/png-img.png" />
           </Col>
           <Col md={6} className='pt-5'>
             <div className="section_title fs-5 mt-5">
@@ -157,10 +157,10 @@ function Home() {
                 </li>
               </ul>
               <Link to="#" className="me-2">
-                <Image width={130} height={40} src='/saltae_burger/images/google-play.png' />
+                <Image width={130} height={40} src='/images/google-play.png' />
               </Link>
               <Link to="#">
-                <Image width={130} height={40} src='/saltae_burger/images/app store.png' />
+                <Image width={130} height={40} src='/images/app store.png' />
               </Link>
             </Col>
           </Row>
