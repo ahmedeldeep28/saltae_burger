@@ -1,13 +1,12 @@
-import React from 'react'
 import { Navigate } from "react-router-dom";
 import { useSelector } from 'react-redux';
 
 
-function ProtactRoute({ component }) {
+function ProtectRoute({ component }) {
 
 
     let { isUser } = useSelector(state => state.user)
-    console.log(isUser);
+
     if (!isUser) {
         return <Navigate to="/" />
     }
@@ -16,4 +15,4 @@ function ProtactRoute({ component }) {
     }
 }
 
-export default ProtactRoute
+export default ProtectRoute

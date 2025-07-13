@@ -1,6 +1,5 @@
 {
-  "homepage": ".",
-  "name": "saltae_burger",
+  "name": "salta_burger",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

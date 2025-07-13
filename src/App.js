@@ -17,7 +17,7 @@ import Offers from './pages/Offers';
 import Cart from './pages/Cart';
 import CheckOut from './pages/CheckOut';
 import Footer from './components/Footer';
-import ProtactRoute from './components/ProtactRoute';
+import ProtectRoute from './components/ProtectRoute';
 import { useDispatch } from 'react-redux';
 import { getUser } from './store/slice/userSlice';
 
@@ -37,8 +37,8 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/offer' element={<Offers />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/cart' element={<ProtactRoute component={<Cart />} />} />
-        <Route path='/checkout' element={<ProtactRoute component={<CheckOut />} />} />
+        <Route path='/cart' element={<ProtectRoute component={<Cart />} />} />
+        <Route path='/checkout' element={<ProtectRoute component={<CheckOut />} />} />
       </Routes>
       <Footer />
     </>
