@@ -1,5 +1,4 @@
 export let menuFoods = [
-    // pasta
     {
         foodName: "spaghetti botanisa",
         desc: "Extra virgin olive oil, touch of garlic, prawns, green peas, sun dried tomato, white wine and Italian herbs.",
@@ -32,8 +31,6 @@ export let menuFoods = [
         image: "https://patiotime.loftocean.com/demo6/wp-content/uploads/sites/4/2022/04/menu-img-7-370x271.jpg",
         id: 4
     },
-
-    // dessert
     {
         foodName: "sweet cup",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, dolores?",
@@ -66,8 +63,6 @@ export let menuFoods = [
         image: "https://static01.nyt.com/images/2022/02/12/dining/JT-Chocolate-Chip-Cookies/JT-Chocolate-Chip-Cookies-threeByTwoMediumAt2X.jpg",
         id: 8
     },
-
-    // drinks
     {
         foodName: "chevrefrit au miel",
         desc: "tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.",
@@ -108,8 +103,6 @@ export let menuFoods = [
         image: "https://elanta.app/nazar/starbelly-demo/img/menu/15.jpg",
         id: 13
     },
-
-    // burger
     {
         foodName: "Croustillant de",
         desc: "tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.",
@@ -142,7 +135,6 @@ export let menuFoods = [
         image: "https://templatekit.tokomoo.com/burgerrkit/wp-content/uploads/sites/81/2022/03/product-1.jpg",
         id: 17
     },
-    // pizza
     {
         foodName: "chicken breast",
         desc: "There are many variations of passages of Lorem Ipsum available, but the majority",

@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -17,7 +16,7 @@ function CardPlate({ datePlate }) {
       </Card.Title>
       <Link
         className="stretched-link"
-        to={`/Salta_burger/menu/${datePlate.plateName}`}
+        to={`/menu/${datePlate.plateName}`}
       ></Link>
     </Card>
   );
